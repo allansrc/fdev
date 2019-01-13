@@ -37,7 +37,7 @@ echo "\n---- Unpack ok ----"
 # Add PATH
 #---------------------------------------------------------
 echo "\n---- adding PATH ----"
-echo "export PATH=$PATH:~/fdev/flutter/bin
+echo "export PATH=$PATH:~/fdev/flutter/bin"
 
 #---------------------------------------------------------
 # test flutter
