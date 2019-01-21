@@ -30,7 +30,7 @@ curl -# https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutt
 #---------------------------------------------------------
 echo "\n---- Unpacking files ----"
 mkdir ~/fdev/
-tar xf flutter_linux_v1.0.0-stable.tar.gz -C ~/fdev/
+tar xf flutter_linux_v1.0.0-stable.tar.xz -C ~/fdev/
 echo "\n---- Unpack ok ----"
 
 #---------------------------------------------------------
