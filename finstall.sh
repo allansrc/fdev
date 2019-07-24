@@ -38,6 +38,10 @@ echo "\n---- Unpack ok ----"
 #---------------------------------------------------------
 echo "\n---- adding PATH ----"
 echo "export PATH=$PATH:~/fdev/flutter/bin"
+#---------------------------------------------------------
+# Add AS
+#---------------------------------------------------------
+sudo apt install snap && sudo snap install android-studio --classic
 
 #---------------------------------------------------------
 # test flutter
