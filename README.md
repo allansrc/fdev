@@ -10,3 +10,6 @@ The aims of this script is make more easy flutter set up to start dev on
 * run Flutter Doctor to check issues.
 
 * for Windows, run .bat file as Admin
+
+* contributors
+>> @marcusedu :: windows installer script
