@@ -12,4 +12,4 @@ The aims of this script is make more easy flutter set up to start dev on
 * for Windows, run .bat file as Admin
 
 * contributors
->> @marcusedu (https:github.com/marcusedu) :: windows installer script
+>> [marcusedu] (https:github.com/marcusedu) :: windows installer script
