@@ -1,26 +1,32 @@
 # Fdev
 Flutter development environment
 
-# For Linux
+### For Linux
 * Downloads Flutter SDK
 * Add it to PATH
 * Install Android Studio
 
-Usage:
+##### Usage:
+
 make the finstall.sh file runnable,
+
+```
+chmod -x finstall.sh 
+```
+
 then run the file .sh to installs
 
-
-chmod -x finstall.sh 
+```
 ./finstall.sh  
+```
  
-# For Windows
+### For Windows
 * Install chocolatey
 * Install Git
 * Download Flutter SDK
  
-Usage:
- 
+##### Usage:
+
 `run the .bat file as Admin`
    
 
