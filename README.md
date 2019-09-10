@@ -6,8 +6,8 @@ Flutter development environment
 * Add it to PATH
 * Install Android Studio
 
->> Usage:
-*`make the finstall.sh file runnable`*
+>Usage: >
+`make the finstall.sh file runnable`
 `>> chmod -x finstall.sh`
 then run finstall.sh
 >> ./finstall.sh
