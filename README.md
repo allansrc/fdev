@@ -11,13 +11,31 @@ Flutter development environment
 make the finstall.sh file runnable,
 
 ```
-chmod -x finstall.sh 
+chmod -x fdev-linux.sh 
 ```
 
 then run the file .sh to installs
 
 ```
-./finstall.sh  
+./ fdev-linux.sh  
+```
+
+### For MacOs
+* Downloads Flutter SDK
+* Add it to PATH
+
+##### Usage:
+
+make the fdev-macos.sh file runnable,
+
+```
+chmod -x fdev-macos.sh 
+```
+
+then run the file .sh to installs
+
+```
+./fdev-macos.sh  
 ```
  
 ### For Windows
@@ -27,7 +45,7 @@ then run the file .sh to installs
  
 ##### Usage:
 
-`run the .bat file as Admin`
+`run the fdev-win.bat file as Admin`
    
 
 Thanks to [marcusedu](https:github.com/marcusedu) :> Windows script
