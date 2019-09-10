@@ -9,7 +9,7 @@
 # Usage:
 #
 # flutter install: exemple: ->
-# ./finstall
+# ./fdev-linux
 #
 ##########################################################
 
@@ -23,14 +23,14 @@ sudo apt update
 # Download Flutter
 #---------------------------------------------------------
 echo "\n---- Downloading Flutter -----"
-curl - https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.7.8+hotfix.3-stable.tar.xz --output flutter.tar.xz
+curl - https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.9.1+hotfix.2-stable.tar.xz --output flutter.tar.xz
 
 #---------------------------------------------------------
 # Open Folder && Unzip Flutter Pack Downloaded
 #---------------------------------------------------------
 echo "\n---- Unpacking files ----"
 mkdir ~/src-f/
-tar xf flutter_linux_v1.7.8+hotfix.3-stable.tar.xz -C ~/src-f/
+tar xf flutter_linux_v1.9.1+hotfix.2-stable.tar.xz -C ~/src-f/
 echo "\n---- Unpack ok ----"
 
 #---------------------------------------------------------
