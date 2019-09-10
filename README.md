@@ -7,9 +7,12 @@ Flutter development environment
 * Install Android Studio
 
 Usage:
-make the finstall.sh file runnable, then run the file .sh to installs
-> `chmod -x finstall.sh `
-> `./finstall.sh // running the script` 
+make the finstall.sh file runnable,
+then run the file .sh to installs
+
+
+chmod -x finstall.sh 
+./finstall.sh  
  
 # For Windows
 * Install chocolatey
