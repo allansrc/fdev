@@ -41,6 +41,8 @@ export PATH="$PATH:~/src-f/flutter/bin"
 #---------------------------------------------------------
 # Add AS
 #---------------------------------------------------------
+echo "\n---- Downloadin' Android Studio ----"
+echo "\n---- You can Cancel the Download: press CTRL+C ----"
 sudo apt install snap && sudo snap install android-studio --classic
 
 #---------------------------------------------------------
@@ -49,7 +51,6 @@ sudo apt install snap && sudo snap install android-studio --classic
 echo "\n---- Testing installation ----"
 flutter doctor
 
-echo "\n---- Thats ok, for update manager and another tools ----"
 echo "\n---- if your PATH hasn't been updated, run: ----"
 echo "\n---- export PATH="$PATH:~/src-f/flutter/bin" >> .bashrc ----"
 echo "\n---- or go to: ----"
