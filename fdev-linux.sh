@@ -23,7 +23,7 @@ sudo apt update
 # Download Flutter
 #---------------------------------------------------------
 echo "\n---- Downloading Flutter -----"
-curl - https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.9.1+hotfix.2-stable.tar.xz --output flutter.tar.xz
+curl -O https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.9.1+hotfix.2-stable.tar.xz --output flutter.tar.xz
 
 #---------------------------------------------------------
 # Open Folder && Unzip Flutter Pack Downloaded
