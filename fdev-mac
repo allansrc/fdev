@@ -17,7 +17,7 @@
 # Download Flutter
 #---------------------------------------------------------
 echo "\n---- Downloading Flutter -----"
-curl - https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.9.1+hotfix.2-stable.zip --output flutter.zip
+curl -O https://storage.googleapis.com/flutter_infra/releases/stable/macos/flutter_macos_v1.9.1+hotfix.2-stable.zip --output flutter.zip
 
 #---------------------------------------------------------
 # Open Folder && Unzip Flutter Pack Downloaded
