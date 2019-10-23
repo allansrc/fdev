@@ -20,18 +20,20 @@ echo -e "\n---- Update Cache ----"
 sudo apt update
 
 #---------------------------------------------------------
+# Install Git
+#---------------------------------------------------------
+echo -e "\n---- Update Cache ----"
+sudo apt install git
+
+#---------------------------------------------------------
 # Download Flutter
 #---------------------------------------------------------
 echo "\n---- Downloading Flutter -----"
-curl -O https://storage.googleapis.com/flutter_infra/releases/stable/linux/flutter_linux_v1.9.1+hotfix.2-stable.tar.xz --output flutter.tar.xz
+mkdir ~/src-f
 
-#---------------------------------------------------------
-# Open Folder && Unzip Flutter Pack Downloaded
-#---------------------------------------------------------
-echo "\n---- Unpacking files ----"
-mkdir ~/src-f/
-tar xf flutter_linux_v1.9.1+hotfix.2-stable.tar.xz -C ~/src-f/
-echo "\n---- Unpack ok ----"
+cd ~/src-f
+
+git clone https://github.com/flutter/flutter
 
 #---------------------------------------------------------
 # Add PATH
