@@ -1,5 +1,5 @@
 # Fdev
-#### Flutter development environment
+### Flutter development environment
 #### Windows / macOS / Linux
 
 *Python and shellscript option installer*
