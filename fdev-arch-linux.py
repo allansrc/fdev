@@ -28,6 +28,5 @@ if ans == 'y':
     print('cleaning out old files that are not needed anymore')
     os.system("sudo rm flutter_linux_v1.9.1+hotfix.2-stable.tar.xz")
     os.system("sudo rm android-studio-ide-183.5522156-linux.tar.gz")
-    os.system("git clone https://github.com/dahlia-os/pangolin-desktop.git")
-    os.system("git clone https://github.com/dahlia-os/pangolin-mobile.git")
+  
     print('finished')
