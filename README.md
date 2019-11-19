@@ -1,24 +1,45 @@
 # Fdev
 #### Flutter development environment
+#### Windows / macOS / Linux
+
+*Python and shellscript option installer*
 
 
-##### Python and shellscript option installer 
 
 
+## Option 1: (Python script)
+#### It'll install:
 
+* Flutter
 
+* Android Studio
 
-## Option 1: (macOS / Linux)
+* Visual Studio Code
 
-### run the installer _Python_ script
+* wget, git, tar
+
+### For Linux distros
+
+* run the proper installer for your distro. i.e:
+
 ```
 python3 fdev-linux.py
 ```
-* use the proper OS / distro installer for your machine.
 
-## Option 2: (macOS / Linux)
+### For macOS
 
-### run the _ShellScript_ installer for your OS 
+* run the installer file. i.e:
+
+```
+python3 fdev-macos.py
+```
+
+
+## Option 2: (ShellScript Installer)
+
+
+#### macOS / Linux
+#### run the proper _ShellScript_ installer file for your OS, i.e:
 
 * make the fdev-linux.sh file runnable,
 
@@ -36,20 +57,15 @@ chmod -x fdev-linux.sh
 
 ## For Windows:
 
-* Usage:
-* * run the fdev-win.bat file as Admin
+#### Usage:
+* run the fdev-win.bat file as Admin
 
-#### Installer:
+#### It'll install:
 * Install chocolatey
 * Install Git
 * Download Flutter SDK
 * Download Dart SDK
 * Android Studio
-
-
-
-
-
 
 
 Thanks to [marcusedu](https:github.com/marcusedu) :> Windows script
