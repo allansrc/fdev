@@ -68,4 +68,6 @@ chmod -x fdev-linux.sh
 * Android Studio
 
 
-Thanks to [marcusedu](https:github.com/marcusedu) :> Windows script
+Thanks to: 
+[marcusedu](https:github.com/marcusedu) : Windows script
+[DahliaOS](https://github.com/dahlia-os) : Python script
