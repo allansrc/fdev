@@ -67,6 +67,8 @@ chmod -x fdev-linux.sh
 * Download Dart SDK
 * Android Studio
 
+### LICENSE:
+#### [License](https://github.com/allansrc/fdev/blob/master/LICENSE)
 
 Thanks to: 
 [marcusedu](https:github.com/marcusedu) : Windows script
