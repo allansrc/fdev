@@ -71,6 +71,11 @@ chmod -x fdev-linux.sh
 * Download Dart SDK
 * Android Studio
 
+
+## The Flutter's path you'll needs to adds on environment variables is on "C:\src\flutter\bin" 
+
+
+
 ### LICENSE:
 #### [License](https://github.com/allansrc/fdev/blob/master/LICENSE)
 
