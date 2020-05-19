@@ -57,8 +57,12 @@ chmod -x fdev-linux.sh
 
 ## For Windows:
 
-#### Usage:
+#### Usage: (without Android Studio)
 * run the fdev-win.bat file as Admin
+
+
+#### Usage: (Android Studio included)
+* run the fdev-win-android-s.bat file as Adm
 
 #### It'll install:
 * Install chocolatey
