@@ -28,18 +28,25 @@ sudo apt install git
 #---------------------------------------------------------
 # Download Flutter
 #---------------------------------------------------------
-echo "\n---- Downloading Flutter -----"
+echo "\n---- Downloading Flutter (stable) -----"
 mkdir ~/src-f
 
 cd ~/src-f
 
-git clone https://github.com/flutter/flutter
+echo "\n---- Downloading on '~/src-f' -----"
+
+git clone https://github.com/flutter/flutter.git -b stable
+
 
 #---------------------------------------------------------
 # Add PATH
 #---------------------------------------------------------
-echo "\n---- adding PATH ----"
+echo "\n---- adding to PATH ----"
 export PATH="$PATH:~/src-f/flutter/bin"
+
+export PATH="$PATH:`pwd`/flutter/bin"
+
+flutter precache
 #---------------------------------------------------------
 # Add AS
 #---------------------------------------------------------
