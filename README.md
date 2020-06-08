@@ -2,6 +2,26 @@
 ### Flutter development environment
 #### Windows / macOS / Linux
 
+
+
+## For Windows:
+
+#### Usage: (without Android Studio)
+* run the fdev-win.bat file as Admin
+
+
+#### Usage: (Android Studio included)
+* run the fdev-win-android-s.bat file as Adm
+
+#### It'll install:
+- [x] Install chocolatey
+- [x] Install Git
+- [x] Download Flutter SDK
+- [x] add Flutter to ENV. PATH
+- [x] Download Dart SDK
+- [x] Android Studio
+
+
 *Python and shellscript option installer*
 
 
@@ -10,13 +30,13 @@
 ## Option 1: (Python script)
 #### It'll install:
 
-* Flutter
+- [x] Flutter
 
-* Android Studio
+- [x] Android Studio
 
-* Visual Studio Code
+- [x] Visual Studio Code
 
-* wget, git, tar
+- [x] wget, git, tar
 
 ### For Linux distros
 
@@ -55,30 +75,11 @@ chmod -x fdev-linux.sh
 
 
 
-## For Windows:
-
-#### Usage: (without Android Studio)
-* run the fdev-win.bat file as Admin
-
-
-#### Usage: (Android Studio included)
-* run the fdev-win-android-s.bat file as Adm
-
-#### It'll install:
-* Install chocolatey
-* Install Git
-* Download Flutter SDK
-* Download Dart SDK
-* Android Studio
-
-
-## The Flutter's path you'll needs to adds on environment variables is on "C:\src\flutter\bin" 
-
 
 
 ### LICENSE:
 #### [License](https://github.com/allansrc/fdev/blob/master/LICENSE)
 
 Thanks to: 
-[marcusedu](https:github.com/marcusedu) : Windows script
-[DahliaOS](https://github.com/dahlia-os) : Python script
+[marcusedu](https:github.com/marcusedu) 
+[DahliaOS](https://github.com/dahlia-os)
