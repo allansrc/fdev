@@ -5,6 +5,7 @@ mkdir src
 cd \src
 git clone https://github.com/flutter/flutter
 cd flutter
+set PATH=%PATH%;C:\src\flutter\bin\
 start bin/flutter.bat doctor
 start flutter_console.bat
 @echo off
