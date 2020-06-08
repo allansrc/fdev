@@ -5,14 +5,10 @@ mkdir src
 cd \src
 git clone https://github.com/flutter/flutter
 cd flutter
+set PATH=%PATH%;C:\src\flutter\bin\
 start bin/flutter.bat doctor
 start flutter_console.bat
 @echo off
-@echo by now add Flutter's plugin to Android Studio
-@echo.
-@echo 1 - Android Studio > File > Settings > plugins
-@echo 2 - Browser Repositories
-@echo 3 - Search Flutter
-@echo 4 - Install and Reboot Android Studio
+@echo added flutter to Windows Path
 @echo.
 pause
