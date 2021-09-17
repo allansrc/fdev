@@ -8,7 +8,7 @@
 
 to an easy setup your M1 based mac really for Flutter development!
 
-## What does it do in my machine?
+## What does it do in my machine? (Apple Silicon)
 
 - install git / xcode command line tool
 - install flutter stable version
@@ -20,7 +20,7 @@ to an easy setup your M1 based mac really for Flutter development!
 - install android studio
 - set xcode configs (if it's installed)
 
-##### EXTRAS
+##### EXTRAS (Only for Apple Silicon)
 
 |       Package        |   Version    |               Description               |         Path         |
 | :------------------: | :----------: | :-------------------------------------: | :------------------: |
@@ -45,7 +45,8 @@ run this command on terminal:
 
 #### it also works on: Windows / macOS / Linux
 
-## For Windows:
+
+## For Windows: (Legacy - but works)
 
 #### Usage: (without Android Studio)
 
