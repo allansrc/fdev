@@ -20,6 +20,21 @@ to an easy setup your M1 based mac really for Flutter development!
 - install android studio
 - set xcode configs (if it's installed)
 
+##### EXTRAS
+
+|       Package        |   Version    |               Description               |         Path         |
+| :------------------: | :----------: | :-------------------------------------: | :------------------: |
+|  build-tools;28.0.3  |    28.0.3    |     Android SDK Build-Tools 28.0.3      |  build-tools/28.0.3  |
+|  build-tools;29.0.2  |    29.0.2    |     Android SDK Build-Tools 29.0.2      |  build-tools/29.0.2  |
+|  build-tools;30.0.3  |    30.0.3    |     Android SDK Build-Tools 30.0.3      |  build-tools/30.0.3  |
+| cmdline-tools;latest |     5.0      | Android SDK Command-line Tools (latest) | cmdline-tools/latest |
+|       emulator       |    30.8.4    |            Android Emulator             |       emulator       |
+|   ndk;22.1.7171670   | 22.1.7171670 |     NDK (Side by side) 22.1.7171670     |   ndk/22.1.7171670   |
+|      patcher;v4      |      1       |          SDK Patch Applier v4           |      patcher/v4      |
+|    platform-tools    |    31.0.3    |       Android SDK Platform-Tools        |    platform-tools    |
+| platforms;android-28 |      6       |         Android SDK Platform 28         | platforms/android-28 |
+| platforms;android-30 |      3       |         Android SDK Platform 30         | platforms/android-30 |
+
 ## How to use it:
 
 run this command on terminal:
