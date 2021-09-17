@@ -2,6 +2,8 @@
 
 # Flutter development environment
 
+## easiest way to setup your machine to Flutter environment as simple as run a command
+
 ### Now for Apple M1!
 
 to an easy setup your M1 based mac really for Flutter development!
@@ -26,7 +28,7 @@ run this command on terminal:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/allansrc/fdev/master/platforms/macOS-silicon/flutter-dev-setup-silicon.sh)"
 ```
 
-#### Windows / macOS / Linux
+#### it also works on: Windows / macOS / Linux
 
 ## For Windows:
 
