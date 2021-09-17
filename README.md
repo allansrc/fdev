@@ -103,4 +103,3 @@ chmod -x fdev-linux.sh
 
 Thanks to:
 [marcusedu](https:github.com/marcusedu)
-[DahliaOS](https://github.com/dahlia-os)
