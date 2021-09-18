@@ -43,6 +43,13 @@ run this command on terminal:
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/allansrc/fdev_silicon/master/platforms/macOS-silicon/flutter-dev-setup-silicon.sh)"
 ```
 
+
+## Known Issues:
+
+For those are on macOS 12 (Monterey) Android Studio won't work good or just not work.
+ It's because of some features has no support yet (as Homebrew for example).
+To void this, use sdkmanager to set up some other thing you need. An example could be found in EXTRAS, that I'm working on provide all Necesseries SDK/Build Tools embeded on the installs process (fdev).
+Stay tune ;) thx!
 #### it also works on: Windows / macOS / Linux
 
 
