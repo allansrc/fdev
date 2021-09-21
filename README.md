@@ -37,7 +37,7 @@ to an easy setup your M1 based mac really for Flutter development!
 
 ## How to use it:
 
-run this command on terminal:
+run this command on terminal: (Silicon only, for other platform see below)
 
 ```
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/allansrc/fdev_silicon/master/platforms/macOS-silicon/flutter-dev-setup-silicon.sh)"
