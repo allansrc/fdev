@@ -47,8 +47,16 @@ run this command on terminal: (Silicon only, for other platform see below)
 ## Known Issues:
 
 For those are on macOS 12 (Monterey) Android Studio won't work good or just not work.
- It's because of some features has no support yet (as Homebrew for example).
-To void this, use sdkmanager to set up some other thing you need. An example could be found in EXTRAS, that I'm working on provide all Necesseries SDK/Build Tools embeded on the installs process (fdev).
+I found a solution for that. Just add the `studio.vmoptions` file on `/Users/<User Name>/Library/Application Support/Google/<Android Studio Version>/`.
+
+This file is avaliable on files_fixes folder [here](https://github.com/allansrc/fdev_silicon/blob/master/studio.vmoptions).
+For details about this file and others VM options and the issue see links bellow:
+- [Android Studio Option Dir](https://developer.android.com/studio/intro/studio-config#file_location).
+- [Dir used by IDEA](https://www.jetbrains.com/help/idea/directories-used-by-the-ide-to-store-settings-caches-plugins-and-logs.html).
+- [Config JVM Options](https://intellij-support.jetbrains.com/hc/en-us/articles/206544869).
+- [macOS 12 ARM Java issue](https://youtrack.jetbrains.com/issue/JBR-3715).
+
+
 Stay tune ;) thx!
 #### it also works on: Windows / macOS / Linux
 
